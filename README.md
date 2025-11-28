@@ -3,6 +3,8 @@
 <div align="center">
   <img src="public/Screenshot-home-dark.png" alt="Home Screen" width="800"/>
   <br/><br/>
+  <img src="public/Screenshot-home-light.png" alt="Home Screen Light" width="45%"/>
+  <br/><br/>
   <img src="public/Screenshot-dashboard.png" alt="Dashboard" width="800"/>
   <br/><br/>
   <div style="display: flex; justify-content: center; gap: 20px;">
