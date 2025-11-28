@@ -1,0 +1,200 @@
+{
+  "common": {
+    "home": "Accueil",
+    "caseStudies": "Études de Cas",
+    "blog": "Blog",
+    "login": "Se Connecter",
+    "register": "S'inscrire",
+    "getStarted": "Commencer",
+    "signOut": "Se Déconnecter",
+    "welcome": "Bienvenue",
+    "backToHome": "Retour à l'Accueil",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "menu": "Menu",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "help": "Aide",
+    "contact": "Contact",
+    "about": "À Propos",
+    "terms": "Conditions d'Utilisation",
+    "privacy": "Politique de Confidentialité",
+    "language": "Langue",
+    "theme": "Thème"
+  },
+  "hero": {
+    "title": "Plateforme d'Apprentissage VR/AR VersionUP",
+    "subtitle": "Transformez l'éducation avec des expériences de réalité virtuelle immersive",
+    "description": "VersionUP est une plateforme VR/AR qui permet aux utilisateurs d'apprendre et de pratiquer dans des environnements 3D entièrement immersifs. Elle comprend également un enseignant/guide IA qui explique tout ce que l'utilisateur voit et le soutient étape par étape tout au long du parcours d'apprentissage. VersionUP a le potentiel de transformer à la fois l'industrie et l'éducation en rendant la formation pratique et pratique accessible à tout moment et n'importe où — sans avoir besoin d'équipements physiques coûteux.",
+    "ctaPrimary": "Réserver une Démo",
+    "ctaSecondary": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Fonctionnalités Puissantes pour l'Éducation Moderne",
+    "subtitle": "Apprendre",
+    "description": "VersionUP combine une technologie VR/AR de pointe avec une IA intelligente pour créer l'expérience d'apprentissage la plus efficace possible.",
+    "immersiveLearning": {
+      "title": "Apprentissage Immersif",
+      "description": "Créez des environnements d'apprentissage 3D entièrement immersifs qui engagent les étudiants comme jamais auparavant."
+    },
+    "realTimeCollaboration": {
+      "title": "Guide Alimenté par IA",
+      "description": "Votre enseignant IA personnel explique les concepts, répond aux questions et s'adapte à votre rythme d'apprentissage."
+    },
+    "analytics": {
+      "title": "Apprendre Partout",
+      "description": "Accédez à une formation de classe mondiale depuis chez vous. Aucun équipement coûteux ou voyage requis."
+    },
+    "customContent": {
+      "title": "Retour Instantané",
+      "description": "Obtenez des corrections et des conseils en temps réel pendant que vous pratiquez. Accélérez votre parcours d'apprentissage."
+    },
+    "integration": {
+      "title": "Centre de Connaissances",
+      "description": "Accédez à des guides d'experts, aux tendances de l'industrie et aux histoires de succès dans notre section de ressources complète."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenue de Retour",
+      "subtitle": "Connectez-vous à votre compte VersionUP",
+      "email": "Email",
+      "password": "Mot de Passe",
+      "forgotPassword": "Mot de passe oublié ?",
+      "signIn": "Se Connecter",
+      "noAccount": "Nouveau sur VersionUP ?",
+      "createAccount": "Créer un Compte",
+      "resetPassword": "Réinitialiser le Mot de Passe",
+      "sendResetEmail": "Envoyer l'Email de Réinitialisation",
+      "backToSignIn": "Retour à la Connexion",
+      "demoCredentials": "Démo : Utilisez n'importe quel email/mot de passe pour tester l'authentification"
+    },
+    "register": {
+      "title": "Créer un Compte",
+      "subtitle": "Rejoignez VersionUP et commencez votre voyage d'apprentissage VR",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "password": "Mot de Passe",
+      "confirmPassword": "Confirmer le Mot de Passe",
+      "agreeToTerms": "J'accepte les Conditions d'Utilisation et la Politique de Confidentialité",
+      "createAccount": "Créer un Compte",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "signInInstead": "Se Connecter à la Place",
+      "accountCreated": "Compte Créé !",
+      "checkEmail": "Veuillez vérifier votre email et cliquer sur le lien de vérification pour activer votre compte.",
+      "redirecting": "Redirection vers la page de connexion...",
+      "passwordRequirements": "Exigences du mot de passe :",
+      "minLength": "Au moins 8 caractères",
+      "uppercase": "Une lettre majuscule",
+      "lowercase": "Une lettre minuscule",
+      "number": "Un chiffre"
+    }
+  },
+  "blog": {
+    "title": "Centre de Connaissances",
+    "subtitle": "Formation VR",
+    "subtitleHighlight": "Ressources et Insights",
+    "description": "Restez en avance sur la courbe avec des guides d'experts, des tendances de l'industrie, des histoires de succès clients, et des guides pratiques pour implémenter la formation VR dans votre organisation",
+    "featured": "Articles en Vedette",
+    "latest": "Derniers Articles",
+    "categories": "Catégories",
+    "tags": "Étiquettes",
+    "readMore": "Lire la Suite",
+    "relatedArticles": "Articles Connexes",
+    "newsletter": {
+      "title": "Restez Informé",
+      "subtitle": "Recevez les dernières insights sur la formation VR, les tendances de l'industrie, et les histoires de succès dans votre boîte mail.",
+      "email": "Entrez votre email",
+      "subscribe": "S'abonner",
+      "subscribed": "Pas de spam, désabonnez-vous à tout moment.",
+      "thanks": "Merci de vous être abonné à notre newsletter."
+    }
+  },
+  "caseStudies": {
+    "title": "Résultats Réels de",
+    "subtitle": "Organisations Réelles",
+    "description": "Découvrez comment les principales entreprises de tous secteurs transforment leurs programmes de formation avec notre plateforme VR/AR immersive.",
+    "readFullCase": "Lire l'Étude de Cas Complète",
+    "metrics": "Histoires de Succès",
+    "results": "Résultats",
+    "ctaTitle": "Prêt à Rejoindre Ces Histoires de Succès ?",
+    "ctaDescription": "Découvrez comment la formation VR/AR peut transformer les programmes d'apprentissage et de développement de votre organisation.",
+    "ctaPrimary": "Commencer Aujourd'hui",
+    "ctaSecondary": "Planifier une Démo"
+  },
+  "useCases": {
+    "title": "Applications Industrielles",
+    "subtitle": "Cas d'Usage",
+    "description": "La plateforme VR/AR VersionUP sert divers secteurs industriels et éducatifs avec des solutions d'apprentissage immersif sur mesure.",
+    "industryTraining": {
+      "title": "Formation Professionnelle",
+      "description": "Programmes de développement professionnel et de certification pour la formation d'entreprise et le développement des compétences.",
+      "examples": [
+        "Sécurité Manufacturière",
+        "Formation Médicale",
+        "Compétences de Construction",
+        "Procédures Aéronautiques",
+        "Opérations Pétrole & Gaz"
+      ]
+    },
+    "education": {
+      "title": "Éducation & Académie",
+      "description": "Expériences d'apprentissage interactives pour l'enseignement primaire/secondaire, supérieur et les programmes d'apprentissage tout au long de la vie.",
+      "examples": [
+        "Éducation STEM",
+        "Formation Médicale",
+        "Simulations Historiques",
+        "Apprentissage des Langues",
+        "Expériences Scientifiques"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Pourquoi Choisir",
+    "subtitle": "VersionUP?",
+    "description": "Les avantages parlent d'eux-mêmes",
+    "noEquipment": "Aucun équipement physique coûteux nécessaire",
+    "ownPace": "Apprenez à votre rythme, n'importe quand",
+    "safeEnvironment": "Environnement sûr pour faire des erreurs",
+    "aiAdapts": "L'IA s'adapte à votre style d'apprentissage",
+    "unlimitedPractice": "Pratiquez un nombre illimité de fois",
+    "instantFeedback": "Retour d'expert instantané"
+  },
+  "cta": {
+    "badge": "Transformez Votre Apprentissage Aujourd'hui",
+    "title": "Le Futur de",
+    "subtitle": "l'Apprentissage",
+    "description": "Rejoignez des milliers d'apprenants et d'organisations qui utilisent déjà VersionUP pour révolutionner l'éducation et la formation.",
+    "primaryButton": "Commencer Gratuitement",
+    "secondaryButton": "Planifier une Démo",
+    "footer": "Aucune carte de crédit requise • Commencez à apprendre en quelques minutes"
+  },
+  "footer": {
+    "company": "VersionUP",
+    "tagline": "Transformer l'Éducation Grâce à la VR/AR",
+    "copyright": "© 2025 VersionUP. Tous droits réservés.",
+    "links": {
+      "about": "À Propos",
+      "blog": "Blog",
+      "careers": "Carrières",
+      "contact": "Contact",
+      "support": "Support",
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    }
+  }
+}

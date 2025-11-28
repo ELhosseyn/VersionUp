@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 30% 8%;
+    --foreground: 200 20% 98%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 200 20% 98%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 200 20% 98%;
+
+    --primary: 188 95% 52%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 200 20% 98%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 200 10% 65%;
+
+    --accent: 190 100% 58%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 200 20% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: 188 95% 52%;
+
+    --radius: 0.75rem;
+    
+    /* Custom VR/AR theme tokens */
+    --glow: 188 95% 52%;
+    --glow-bright: 190 100% 58%;
+    --space-dark: 220 30% 5%;
+    --gradient-cyber: linear-gradient(135deg, hsl(188, 95%, 52%) 0%, hsl(220, 80%, 45%) 100%);
+    --gradient-glow: linear-gradient(180deg, hsl(188, 95%, 52%, 0.1) 0%, transparent 100%);
+    --shadow-glow: 0 0 40px hsl(188, 95%, 52%, 0.3);
+    --shadow-deep: 0 20px 60px hsl(220, 30%, 5%, 0.5);
+
+    /* Sidebar colors matching dark theme */
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 200 20% 98%;
+    --sidebar-primary: 188 95% 52%;
+    --sidebar-primary-foreground: 220 30% 8%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 200 20% 98%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 188 95% 52%;
+  }
+
+  .dark {
+    /* Dark mode is the default theme */
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 188 95% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 190 100% 58%;
+    --accent-foreground: 222.2 84% 4.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 188 95% 52%;
+
+    --radius: 0.75rem;
+
+    /* Custom VR/AR theme tokens for light mode */
+    --glow: 188 95% 52%;
+    --glow-bright: 190 100% 58%;
+    --space-dark: 210 40% 96%;
+    --gradient-cyber: linear-gradient(135deg, hsl(188, 95%, 52%) 0%, hsl(220, 80%, 45%) 100%);
+    --gradient-glow: linear-gradient(180deg, hsl(188, 95%, 52%, 0.1) 0%, transparent 100%);
+    --shadow-glow: 0 0 40px hsl(188, 95%, 52%, 0.3);
+    --shadow-deep: 0 20px 60px hsl(210, 40%, 90%, 0.5);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    text-align: right;
+  }
+
+  [dir="rtl"] .space-x-2 > * + * {
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+
+  [dir="rtl"] .space-x-4 > * + * {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  [dir="rtl"] .space-x-6 > * + * {
+    margin-left: 0;
+    margin-right: 1.5rem;
+  }
+
+  [dir="rtl"] .mr-2 {
+    margin-right: 0;
+    margin-left: 0.5rem;
+  }
+
+  [dir="rtl"] .ml-2 {
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+
+  [dir="rtl"] .pl-10 {
+    padding-left: 0;
+    padding-right: 2.5rem;
+  }
+
+  [dir="rtl"] .pr-10 {
+    padding-right: 0;
+    padding-left: 2.5rem;
+  }
+
+  [dir="rtl"] .left-3 {
+    left: auto;
+    right: 0.75rem;
+  }
+
+  [dir="rtl"] .right-3 {
+    right: auto;
+    left: 0.75rem;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px hsl(var(--glow) / 0.5);
+  }
+  
+  .border-glow {
+    border-color: hsl(var(--glow));
+    box-shadow: 0 0 20px hsl(var(--glow) / 0.3);
+  }
+  
+  .bg-gradient-cyber {
+    background: var(--gradient-cyber);
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+}

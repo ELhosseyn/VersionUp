@@ -1,0 +1,186 @@
+{
+  "common": {
+    "home": "Home",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "login": "Sign In",
+    "register": "Register",
+    "getStarted": "Get Started",
+    "signOut": "Sign Out",
+    "welcome": "Welcome",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "settings": "Settings",
+    "profile": "Profile",
+    "help": "Help",
+    "contact": "Contact",
+    "about": "About",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "hero": {
+    "title": "VersionUP VR/AR Learning Platform",
+    "subtitle": "Transform education with immersive virtual reality experiences",
+    "description": "VersionUP is a VR/AR platform that allows users to learn and practice inside fully immersive 3D environments. It also includes an AI teacher/guide that explains everything the user sees and supports them step by step throughout the learning journey. VersionUP has the potential to transform both industry and education by making practical, hands-on training accessible anytime and anywhere — without the need for expensive physical equipment.",
+    "ctaPrimary": "Book Demo",
+    "ctaSecondary": "Learn More"
+  },
+  "features": {
+    "title": "Powerful Features for Modern Education",
+    "subtitle": "Learn",
+    "description": "VersionUP combines cutting-edge VR/AR technology with intelligent AI to create the most effective learning experience possible.",
+    "immersiveLearning": {
+      "title": "Immersive Learning",
+      "description": "Create fully immersive 3D learning environments that engage students like never before."
+    },
+    "realTimeCollaboration": {
+      "title": "AI-Powered Guide",
+      "description": "Your personal AI teacher explains concepts, answers questions, and adapts to your learning pace."
+    },
+    "analytics": {
+      "title": "Learn Anywhere",
+      "description": "Access world-class training from home. No expensive equipment or travel required."
+    },
+    "customContent": {
+      "title": "Instant Feedback",
+      "description": "Get real-time corrections and guidance as you practice. Accelerate your learning journey."
+    },
+    "integration": {
+      "title": "Knowledge Hub",
+      "description": "Access expert guides, industry trends, and success stories in our comprehensive resources section."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your VersionUP account",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign In",
+      "noAccount": "New to VersionUP?",
+      "createAccount": "Create Account",
+      "resetPassword": "Reset Password",
+      "sendResetEmail": "Send Reset Email",
+      "backToSignIn": "Back to Sign In",
+      "demoCredentials": "Demo: Use any email/password to test authentication"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join VersionUP and start your VR learning journey",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "createAccount": "Create Account",
+      "haveAccount": "Already have an account?",
+      "signInInstead": "Sign In Instead",
+      "accountCreated": "Account Created!",
+      "checkEmail": "Please check your email and click the verification link to activate your account.",
+      "redirecting": "Redirecting to login page...",
+      "passwordRequirements": "Password requirements:",
+      "minLength": "At least 8 characters",
+      "uppercase": "One uppercase letter",
+      "lowercase": "One lowercase letter",
+      "number": "One number"
+    }
+  },
+  "blog": {
+    "title": "Knowledge Hub",
+    "subtitle": "VR Training",
+    "subtitleHighlight": "Resources & Insights",
+    "description": "Stay ahead of the curve with expert guides, industry trends, customer success stories, and practical how-tos for implementing VR training in your organization",
+    "featured": "Featured Articles",
+    "latest": "Latest Posts",
+    "categories": "Categories",
+    "tags": "Tags",
+    "readMore": "Read More",
+    "relatedArticles": "Related Articles",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest VR training insights, industry trends, and success stories delivered to your inbox.",
+      "email": "Enter your email",
+      "subscribe": "Subscribe",
+      "subscribed": "No spam, unsubscribe at any time.",
+      "thanks": "Thanks for subscribing to our newsletter."
+    }
+  },
+  "caseStudies": {
+    "title": "Real Results from",
+    "subtitle": "Real Organizations",
+    "description": "Discover how leading companies across industries are transforming their training programs with our immersive VR/AR platform.",
+    "readFullCase": "Read Full Case Study",
+    "metrics": "Success Stories",
+    "results": "Results",
+    "ctaTitle": "Ready to Join These Success Stories?",
+    "ctaDescription": "See how VR/AR training can transform your organization's learning and development programs.",
+    "ctaPrimary": "Get Started Today",
+    "ctaSecondary": "Schedule a Demo"
+  },
+  "useCases": {
+    "title": "Industry Applications",
+    "subtitle": "Use Cases",
+    "description": "VersionUP VR/AR platform serves diverse industries and educational sectors with tailored immersive learning solutions.",
+    "industryTraining": {
+      "title": "Industry Training",
+      "description": "Professional development and certification programs for corporate training and skill development.",
+      "examples": [
+        "Manufacturing Safety",
+        "Healthcare Training",
+        "Construction Skills",
+        "Aviation Procedures",
+        "Oil & Gas Operations"
+      ]
+    },
+    "education": {
+      "title": "Education & Academia",
+      "description": "Interactive learning experiences for K-12, higher education, and lifelong learning programs.",
+      "examples": [
+        "STEM Education",
+        "Medical Training",
+        "Historical Simulations",
+        "Language Learning",
+        "Science Experiments"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Why Choose",
+    "subtitle": "VersionUP?",
+    "description": "The benefits speak for themselves",
+    "noEquipment": "No expensive physical equipment needed",
+    "ownPace": "Learn at your own pace, anytime",
+    "safeEnvironment": "Safe environment to make mistakes",
+    "aiAdapts": "AI adapts to your learning style",
+    "unlimitedPractice": "Practice unlimited times",
+    "instantFeedback": "Instant expert feedback"
+  },
+  "cta": {
+    "badge": "Transform Your Learning Today",
+    "title": "The Future of",
+    "subtitle": "Learning",
+    "description": "Join thousands of learners and organizations already using VersionUP to revolutionize education and training.",
+    "primaryButton": "Get Started Free",
+    "secondaryButton": "Schedule a Demo",
+    "footer": "No credit card required • Start learning in minutes"
+  }
+}
